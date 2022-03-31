@@ -4,11 +4,28 @@ body{
     text-align: center;
 }
 
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+ul a li{
+    text-decoration: none;
+    color: rgb(238, 207, 238);
+}
+
 header{
     display: flex;
     justify-content: space-around;
     background-color: rgb(39, 1, 39);
     color: rgb(238, 207, 238);
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    padding: 0 10%;
 }
 
 ul{
@@ -19,20 +36,54 @@ ul{
     list-style: none;
 }
 
+#project{
+    padding: 5% 10%; 
+}
 
+.icon{
+    color: rgb(1, 48, 1);
+}
+
+.project1{
+    border-radius: 5px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
 
 #intro{
     display: flex;
     margin-top: 40px;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 7% 10%;
 }
 
 #about-me{
     display: flex;
+    margin-top: 50px;
+    /* width: 70%; */
+    justify-content: space-evenly;
+    /* position:relative;right:-125px; */
+    padding: 7% 10%;
+    line-height: 2rem;
+}
+
+#contactme{
     margin-top: 40px;
-    width: 70%;
-    justify-content: center;
-    position:relative;right:-125px;
 }
 
 
